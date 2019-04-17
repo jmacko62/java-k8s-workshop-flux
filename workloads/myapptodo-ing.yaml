@@ -9,7 +9,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: "/api/todo"
 spec:
   rules:
-    - host: YOURINGRESSIP.xip.io
+    - host: 13.69.172.227.xip.io
       http:
         paths:
           - path: /api/todo
